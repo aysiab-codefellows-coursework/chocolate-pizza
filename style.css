@@ -5,6 +5,7 @@
 
 body {
     width:100vw;
+    color: grey;
 }
 
 header {
@@ -24,6 +25,7 @@ header > div:first-child img {
 header > div:first-child > div:first-child h1 {
     font-family: 'Yellowtail', cursive;
     font-size: xx-large;
+    color: black;
     margin: 0;
     padding-left:10px;
     padding-right: 10px;
@@ -73,6 +75,7 @@ main > div:first-child > div:first-child > p:nth-child(2) {
 
 main > div:first-child > div:first-child > p:first-of-type {
     font-family: 'Fjalla One', sans-serif;
+    color: black;
     font-size: 40px;
     margin-bottom: 0;
 }
@@ -88,9 +91,30 @@ main > div:first-child > div:last-child img + p {
     margin: 2px;
 }
 
-main > div:nth-child(4) {
-    font-family: 'Annie Use Your Telescope', cursive;
+main > div:nth-child(3) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 25px;
+    font-size: 14pt;
 }
+
+main > div:nth-child(4) ul {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 16pt;
+    list-style: none;
+}
+
+main > div:nth-child(4) > div > ul:first-child {
+    position: absolute;
+    top: 1150px;
+    left: 200px;
+}
+
+main > div:nth-child(4) > div > ul:last-child {
+    position: absolute;
+    top: 1150px;
+    right: 200px;
+}
+
 
 footer {
     margin: auto;

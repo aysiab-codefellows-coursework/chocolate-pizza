@@ -1,1 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
+
+body {
+    width:100vw;
+    color: grey;
+}
+
+header {
+    margin: auto;
+    width: 900px;
+}
+
+header > div:first-child {
+    float: left;
+}
+
+header > div:first-child img {
+    float: left;
+    margin-top: 10px;
+}
+
+header > div:first-child > div:first-child h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
+    color: black;
+    margin: 0;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+header > div:first-child > div:last-child h4 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin-top: 0;
+    margin-left: 50px;
+    font-size: x-small;
+    text-align: center;
+}
+
+header > div:nth-child(2) {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header div:nth-child(2) img {
+    float: left;
+    padding: 1px;
+}
+
+header > div:nth-child(2) > img:nth-child(7){  
+    padding-left: 8px;
+    
+}
+
+main {
+    margin: auto;
+    width: 900px;
+}
+
+main > div:first-child p {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: small;
+}
+
+main > div:first-child > div:first-child {
+    float: left;
+}
+
+main > div:first-child > div:first-child > p:nth-child(2) {
+    padding-left: 2px;
+}
+
+main > div:first-child > div:first-child > p:first-of-type {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+
+main > div:first-child > div:last-child {
+    margin-top: 100px;
+    float: right;
+}
+
+main > div:first-child > div:last-child img + p {
+    float: right;
+    margin: 2px;
+}
+
+main > div:nth-child(3) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 25px;
+    font-size: 14pt;
+}
+
+main > div:nth-child(4) ul {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 16pt;
+    list-style: none;
+}
+
+main > div:nth-child(4) > div > ul:first-child {
+    position: absolute;
+    top: 1150px;
+    left: 200px;
+}
+
+main > div:nth-child(4) > div > ul:last-child {
+    position: absolute;
+    top: 1150px;
+    right: 200px;
+}
+
+
+footer {
+    margin: auto;
+    width: 900px;
+}
+
+footer button {
+  background-color:rgb(172, 89, 64); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  margin: 20px;
+  margin-top:50px;
+}
+
+footer > div:first-child {
+    margin-bottom: 150px;
+}
+
+footer > div:first-child > img:nth-child(2) {
+    float: left;
+    margin-top: 50px;
+}
+
+footer > div:first-child div {
+    float: left;
+}
+
+footer > div:first-child > div p {
+    margin: 0px;
+    font-size: 14pt;
+    width: 600px;
+}
+
+footer > div:first-child > div h2 {
+    margin: 10px;
+    margin-top: 50px;
+}
+
+
+footer div:last-child{
+    text-align: center;
+}
+
+/*found this from here https://stackoverflow.com/questions/35610251/style-hr-with-image */
+
+hr { 
+    background: url('images/logo.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 18px;
+    border: 0;
+    position: relative;
+}
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #d7d7d7;
+    height: 2px;
+    top: 8px;
+}
+hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
